@@ -20,12 +20,6 @@
 -define(SERVER,?MODULE).
 -define(MAX_LOG_LENGTH,100).
 
-%% External exports
--export([
-	 
-	]).
-
-
 -export([
 	 start/0,
 	 stop/0
