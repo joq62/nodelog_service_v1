@@ -10,6 +10,7 @@ all:
 	erlc -I include -o ebin src/*.erl;
 	rm -rf tests_ebin;
 	rm -rf ebin;
+	rm -rf _build;
 	git add *;
 	git commit -m $(m);
 	git push;
